@@ -23,7 +23,9 @@ to extend your list of functions in your own way! For more detailed information,
 
 [ft_atoi](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_atoi.c)
  - convert ASCII string to integer.
-ft_calloc - memory allocation.
+ - 
+[ft_calloc](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_calloc.c)
+ - memory allocation.
 
 ---> Functions from <strings.h> library
 
