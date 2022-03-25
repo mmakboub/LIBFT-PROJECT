@@ -60,14 +60,14 @@ to extend your list of functions in your own way! For more detailed information,
 
 ---> Linked list functions ( BONUS PART)
 
-ft_lstnew - create new list.
-ft_lstsize - count elements of a list.
-ft_lstlast - find last element of list.
-ft_lstadd_back - add new element at end of list.
-ft_lstadd_front - add new element at beginning of list.
-ft_lstdelone - delete element from list.
-ft_lstclear - delete sequence of elements of list from a starting point.
-ft_lstiter - apply function to content of all list's elements.
-ft_lstmap - apply function to content of all list's elements into new list.
+[ft_lstnew](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstnew.c) - create new list.
+[ft_lstsize](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstsize.c) - count elements of a list.
+[ft_lstlast](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstlast.c) - find last element of list.
+[ft_lstadd_back](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstadd_back.c) - add new element at end of list.
+[ft_lstadd_front](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstadd_front.c) - add new element at beginning of list.
+[ft_lstdelone](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstdelone.c) - delete element from list.
+[ft_lstclear](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstclear.c) - delete sequence of elements of list from a starting point.
+[ft_lstiter](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstiter.c) - apply function to content of all list's elements.
+[ft_lstmap](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstmap.c) - apply function to content of all list's elements into new list.
 
 
