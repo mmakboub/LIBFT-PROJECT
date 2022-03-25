@@ -11,7 +11,7 @@ to extend your list of functions in your own way! For more detailed information,
 
 ---> Functions from <ctype.h> library
 
-[ft_isascii](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_isascii.c)- test for ASCII character.
+[ft_isascii](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_isascii.c)- test for ASCII character./
 ft_isalnum - alphanumeric character test.
 ft_isalpha - alphabetic character test.
 ft_isdigit - decimal-digit character test.
