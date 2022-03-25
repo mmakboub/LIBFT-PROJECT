@@ -35,28 +35,28 @@ to extend your list of functions in your own way! For more detailed information,
 
 ---> Functions from <string.h> library
 
-ft_strlen - find length of string.
-ft_strchr - locate character in string (first occurrence).
-ft_strrchr - locate character in string (last occurence).
-ft_strnstr - locate a substring in a string (size-bounded).
-ft_strncmp - compare strings (size-bounded).
-ft_strdup - save a copy of a string (with malloc).
-ft_strlcpy - size-bounded string copying.
-ft_strlcat - size-bounded string concatenation.
+ୡ [ft_strlen](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strlen.c)- find length of string.                                              
+ୡ [ft_strchr](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strchr.c) - locate character in string (first occurrence).                    
+ୡ [ft_strrchr](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strrchr.c) - locate character in string (last occurence).                    
+ୡ [ft_strntr](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strnstr.c) - locate a substring in a string (size-bounded).                    
+ୡ [ft_strncmp](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strncmp.c)- compare strings (size-bounded).                                  
+ୡ [ft_strdup](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strdup.c) - save a copy of a string (with malloc).                            
+ୡ [ft_strlcpy](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strlcpy.c) - size-bounded string copying.                                    
+ୡ [ft_strlcat](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strlcat.c) - size-bounded string concatenation.                              
 
 ---> Non-standard functions
 
-[ft_itoa](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_itoa.c) - convert integer to ASCII string.                                      
-[ft_substr](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_substr.c) - extract substring from string.                                    
-[ft_strtrim](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strtrim.c) - trim beginning and end of string with the specified characters.  
-[strjoin](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strjoin.c) - concatenate two strings into a new string (with malloc).            
-[ft_split](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_split.c) - split string, with specified character as delimiter, into an array of strings.                                                                                                                                              
-[ft_strmapi](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strmapi.c) - create new string from modifying string with specified function.                                                                                                                                                
-[ft_striteri](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_striteri.c) -applies the fonction f to each character of the string passed as argument , and passing it's index as firt argument                                                                                                    
-[ft_putchar_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putchar_fd.c) - output a character to given file.                          
-[ft_putstr_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putstr_fd.c) - output string to given file.                                
-[ft_putendl_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putendl_fd.c) - output string to given file with newline.                  
-[ft_putnbr_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putnbr.c) - output integer to given file.                                  
+ୡ [ft_itoa](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_itoa.c) - convert integer to ASCII string.                                      
+ୡ [ft_substr](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_substr.c) - extract substring from string.                                    
+ୡ [ft_strtrim](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strtrim.c) - trim beginning and end of string with the specified characters.  
+ୡ [strjoin](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strjoin.c) - concatenate two strings into a new string (with malloc).            
+ୡ [ft_split](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_split.c) - split string, with specified character as delimiter, into an array of strings.                                                                                                                                              
+ୡ [ft_strmapi](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strmapi.c) - create new string from modifying string with specified function.                                                                                                                                                
+ୡ [ft_striteri](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_striteri.c) -applies the fonction f to each character of the string passed as argument , and passing it's index as firt argument                                                                                                    
+ୡ [ft_putchar_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putchar_fd.c) - output a character to given file.                          
+ୡ [ft_putstr_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putstr_fd.c) - output string to given file.                                
+ୡ [ft_putendl_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putendl_fd.c) - output string to given file with newline.                  
+ୡ [ft_putnbr_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putnbr.c) - output integer to given file.                                  
 
 ---> Linked list functions ( BONUS PART)
 
