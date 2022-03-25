@@ -26,12 +26,12 @@ to extend your list of functions in your own way! For more detailed information,
 
 ---> Functions from <strings.h> library
 
-ft_bzero - write zeroes to a byte string.
-ft_memset - write a byte to a byte string.
-ft_memchr - locate byte in byte string.
-ft_memcmp - compare byte string.
-ft_memmove - copy byte string.
-ft_memcpy - copy memory area.
+ୡ [ft_bzero](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_bzero.c) - write zeroes to a byte string.                                      
+ୡ [ft_memset](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_memset.c) - write a byte to a byte string.                                    
+ୡ [ft_memchr](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_memchr.c) - locate byte in byte string.                                        
+ୡ [ft_memcmp](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_memcmp.c)- compare byte string.                                                
+ୡ [ft_memove](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_memove.c) - copy byte string.                                                  
+ୡ [ft_memcpy](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_memcpy.c) - copy memory area.                                                  
 
 ---> Functions from <string.h> library
 
