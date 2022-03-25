@@ -11,13 +11,19 @@ to extend your list of functions in your own way! For more detailed information,
 
 ---> Functions from <ctype.h> library
 
-[ft_isascii](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_isascii.c)- test for ASCII character./
-ft_isalnum - alphanumeric character test.
-ft_isalpha - alphabetic character test.
-ft_isdigit - decimal-digit character test.
-ft_isprint - printing character test (space character inclusive).
-ft_tolower - upper case to lower case letter conversion.
-ft_toupper - lower case to upper case letter conversion.
+[ft_isascii](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_isascii.c)- test for ASCII character.
+[ft_isalnum](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_isalnum.c)
+- alphanumeric character test.
+ft_[ft_isalpha](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_isalpha.c)
+ - alphabetic character test.
+ft_[ft_isdigit](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_isdigit.c)
+ - decimal-digit character test.
+ft_[ft_isprint](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_isprint.c)
+ - printing character test (space character inclusive).
+ft_[ft_tolower](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_tolower.c)
+ - upper case to lower case letter conversion.
+ft_[ft_toupper](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_toupper.c)
+ - lower case to upper case letter conversion.
 
 ---> Functions from <stdlib.h> library
 
