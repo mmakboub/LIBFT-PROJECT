@@ -11,7 +11,7 @@ to extend your list of functions in your own way! For more detailed information,
 
 ---> Functions from <ctype.h> library
 
-ft_isascii - test for ASCII character.
+[ft_isascii](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_isascii.c)- test for ASCII character.
 ft_isalnum - alphanumeric character test.
 ft_isalpha - alphabetic character test.
 ft_isdigit - decimal-digit character test.
@@ -21,7 +21,8 @@ ft_toupper - lower case to upper case letter conversion.
 
 ---> Functions from <stdlib.h> library
 
-ft_atoi - convert ASCII string to integer.
+[ft_atoi](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_atoi.c)
+ - convert ASCII string to integer.
 ft_calloc - memory allocation.
 
 ---> Functions from <strings.h> library
