@@ -46,17 +46,17 @@ ft_strlcat - size-bounded string concatenation.
 
 ---> Non-standard functions
 
-ft_itoa - convert integer to ASCII string.
-ft_substr - extract substring from string.
-ft_strtrim - trim beginning and end of string with the specified characters.
-ft_strjoin - concatenate two strings into a new string (with malloc).
-ft_split - split string, with specified character as delimiter, into an array of strings.
-ft_strmapi - create new string from modifying string with specified function.
-ft_striteri -
-ft_putchar_fd - output a character to given file.
-ft_putstr_fd - output string to given file.
-ft_putendl_fd - output string to given file with newline.
-ft_putnbr_fd - output integer to given file.
+[ft_itoa](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_itoa.c) - convert integer to ASCII string.                                      
+[ft_substr](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_substr.c) - extract substring from string.                                    
+[ft_strtrim](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strtrim.c) - trim beginning and end of string with the specified characters.  
+[strjoin](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strjoin.c) - concatenate two strings into a new string (with malloc).            
+[ft_split](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_split.c) - split string, with specified character as delimiter, into an array of strings.                                                                                                                                              
+[ft_strmapi](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_strmapi.c) - create new string from modifying string with specified function.                                                                                                                                                
+[ft_striteri](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_striteri.c) -applies the fonction f to each character of the string passed as argument , and passing it's index as firt argument                                                                                                    
+[ft_putchar_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putchar_fd.c) - output a character to given file.                          
+[ft_putstr_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putstr_fd.c) - output string to given file.                                
+[ft_putendl_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putendl_fd.c) - output string to given file with newline.                  
+[ft_putnbr_fd](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_putnbr.c) - output integer to given file.                                  
 
 ---> Linked list functions ( BONUS PART)
 
