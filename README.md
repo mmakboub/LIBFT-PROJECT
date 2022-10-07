@@ -13,7 +13,6 @@ learn more about makefile :
    - https://opensource.com/article/18/8/what-how-makefile
    - https://web.mit.edu/gnu/doc/html/make_2.html
 
-
 **WHAT IS HEADER FILE ?** : C programming language offers various exciting and useful features and functionalities to the programmers. Almost every programmer uses the C language to develop software, games, and many others.Syntax of the C is very easy to understand and also C is easy to implement. In all C programs, Header files play an important role. You cannot compile or execute any programs without specifying a header file.A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files A header file contains :
 
     *Function Declaration
@@ -22,20 +21,14 @@ learn more about makefile :
 
 Header files serve two purposes:
 
-    *System header files declare the interfaces to parts of the operating system. You include them in your program to supply the definitions and declarations you need to invoke system calls and libraries.
-    *Your own header files contain declarations for interfaces between the source files of your program. Each time you have a group of related declarations and macro definitions all or most of which are needed in several different source files, it is a good idea to create a header file for them.
+  *System header files declare the interfaces to parts of the operating system. You include them in your program to supply the definitions and declarations you need to invoke system calls and libraries.
+  *Your own header files contain declarations for interfaces between the source files of your program. Each time you have a group of related declarations and macro definitions all or most of which are needed in several different source files, it is a good idea to create a header file for them.
 
 leanr more about HEADER file :
 
     - https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html
     - https://www.tutorialspoint.com/cprogramming/c_header_files.htm#:~:text=A%20header%20file%20is%20a,that%20comes%20with%20your%20compiler.
     - https://techvidvan.com/tutorials/header-files-in-c/
-    - 
-
-
-
-
-
 
 ⚠️ NOTE ⚠️ : To be successful with moulinette on this project I had to put all the files in the same directory. I have just put them in folders and modified the Makefile to have a better organized repository.
 # LIST OF FUNCTIONS :
@@ -99,6 +92,4 @@ leanr more about HEADER file :
 ୡ [ft_lstdelone](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstdelone.c) - delete element from list.                                    
 ୡ [ft_lstclear](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstclear.c) - delete sequence of elements of list from a starting point.    
 ୡ [ft_lstiter](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstiter.c) - apply function to content of all list's elements.                
-ୡ [ft_lstmap](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstmap.c) - apply function to content of all list's elements into new list.    
-
-
+ୡ [ft_lstmap](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_lstmap.c) - apply function to content of all list's elements into new list. 
