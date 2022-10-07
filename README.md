@@ -26,9 +26,9 @@ Header files serve two purposes:
 
 leanr more about HEADER file :
 
-    - https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html
-    - https://www.tutorialspoint.com/cprogramming/c_header_files.htm#:~:text=A%20header%20file%20is%20a,that%20comes%20with%20your%20compiler.
-    - https://techvidvan.com/tutorials/header-files-in-c/
+     - https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html
+     - https://www.tutorialspoint.com/cprogramming/c_header_files.htm#:~:text=A%20header%20file%20is%20a,that%20comes%20with%20your%20compiler.
+     - https://techvidvan.com/tutorials/header-files-in-c/
 
 ⚠️ NOTE ⚠️ : To be successful with moulinette on this project I had to put all the files in the same directory. I have just put them in folders and modified the Makefile to have a better organized repository.
 # LIST OF FUNCTIONS :
