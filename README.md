@@ -6,7 +6,36 @@ This project gives you the opportunity to rewrite those functions to understand 
 The library will help you for your future projects in C. Through this project, you have the opportunity
 to extend your list of functions in your own way! For more detailed information, look at the subject of this project.
 
-**WHAT IS MAKEFILE ?** :  Makefiles are files, usually called makefile or Makefile, used by the make program to perform a set of actions, such as compiling a project, checking in a document, updating a site, etc. This article will show how makefile works by compiling a small C project.So Make is a very general tool allowing to automate the compilation of a project. Suppose that the project consists of the following C sources: main.c, structure.c, and operation.c . It is possible to compile this project in three different ways, the following parts specify these different steps.
+**WHAT IS MAKEFILE ?** :  Makefiles are files, usually called makefile or Makefile, used by the make program to perform a set of actions, such as compiling a project, checking in a document, updating a site, etc.So Make is a very general tool allowing to automate the compilation of a project. The makefile contains a list of rules. These rules tell the system what commands you want to be executed. Most times, these rules are commands to compile(or recompile) a series of files. The rules, which must begin in column 1, are in two parts. The first line is called a dependency line and the subsequent line(s) are called actions or commands. The action line(s) must be indented with a tab.The dependency line is made of two parts. The first part (before the colon) are target files and the second part (after the colon) are called source files. It is called a dependency line because the first part depends on the second part. Multiple target files must be separated by a space. Multiple source files must also be separated by a space. 
+learn more about makefile :
+
+   - https://perso.univ-lyon1.fr/jean-claude.iehl/Public/educ/Makefile.html
+   - https://opensource.com/article/18/8/what-how-makefile
+   - https://web.mit.edu/gnu/doc/html/make_2.html
+
+
+**WHAT IS HEADER FILE ?** : C programming language offers various exciting and useful features and functionalities to the programmers. Almost every programmer uses the C language to develop software, games, and many others.Syntax of the C is very easy to understand and also C is easy to implement. In all C programs, Header files play an important role. You cannot compile or execute any programs without specifying a header file.A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files A header file contains :
+
+    *Function Declaration
+    *Macros
+    *Data Type Definitions
+
+Header files serve two purposes:
+
+    *System header files declare the interfaces to parts of the operating system. You include them in your program to supply the definitions and declarations you need to invoke system calls and libraries.
+    *Your own header files contain declarations for interfaces between the source files of your program. Each time you have a group of related declarations and macro definitions all or most of which are needed in several different source files, it is a good idea to create a header file for them.
+
+leanr more about HEADER file :
+
+    - https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html
+    - https://www.tutorialspoint.com/cprogramming/c_header_files.htm#:~:text=A%20header%20file%20is%20a,that%20comes%20with%20your%20compiler.
+    - https://techvidvan.com/tutorials/header-files-in-c/
+    - 
+
+
+
+
+
 
 ⚠️ NOTE ⚠️ : To be successful with moulinette on this project I had to put all the files in the same directory. I have just put them in folders and modified the Makefile to have a better organized repository.
 # LIST OF FUNCTIONS :
@@ -32,7 +61,7 @@ to extend your list of functions in your own way! For more detailed information,
 ୡ [ft_memset](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_memset.c) - write a byte to a byte string.                                    
 ୡ [ft_memchr](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_memchr.c) - locate byte in byte string.                                        
 ୡ [ft_memcmp](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_memcmp.c)- compare byte string.                                                
-ୡ [ft_memove](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_memove.c) - copy byte string.                                                  
+ୡ [ft_memmove](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_memove.c) - copy byte string.                                                  
 ୡ [ft_memcpy](https://github.com/SWEETBEAVER/LIBFT-PROJECT/blob/main/libft/ft_memcpy.c) - copy memory area.                                                  
 
 ---> Functions from <string.h> library
